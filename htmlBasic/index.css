@@ -1,0 +1,6 @@
+#image{
+    max-width: 100px;
+}
+#img-div image{
+    align-content: center;
+}
