@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title">El dilema de las redes sociales</h1>
+    <p id="description">La película explora la dinámica actual de las redes sociales a través de entrevistas 
+        junto a la vida ficcionada de una familia con dos adolescentes, protagonizada por los actores Skyler 
+        Gisondo, Kara Hayward y Vincent Kartheiser. Explora cómo el diseño de las redes sociales explota los 
+        mecanismos fisiológicos de la adicción, su uso en política, su impacto en salud mental (incluyendo la 
+        salud mental de adolescentes y el aumento del índice de suicidios), y el papel de las redes en extender 
+        teorías de conspiración, ayudando a grupos como los terraplanistas y supremacistas y racistas blancos.
+    </p>
+    <form id="survey-form">
+        <label id="name-label">UserName:</label>
+        
+        <input
+          id="name"
+          type="text"
+          placeholder="ingresa tu nombre"
+        >
+        <br>
+        <label id="email-label">Email</label>
+        <input
+            id="email"
+            type="email"
+            placeholder="ingresa tu email"
+        >
+        <br>
+        <label id="number-label">Number</label>
+        <input
+            id="number"
+            type="number"
+            min= 0
+            max= 100
+            placeholder="ingresa un numero"
+        >
+        <br>
+        <input type="submit" value="Submit">
+        <select id="dropdown">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+        <input type="radio" value="buttom" >
+        <input type="radio" value="buttom">
+        <input type="checkbox" value="checkbox">
+        <input type="checkbox" value="checkbox">
+        <textarea type="text" value="">
+        <button id="submit" type="submit">submit</button>
+    
+    </form>
+</body>
+</html>
