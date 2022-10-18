@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+#navbar-header {
+    background-color: #548396;
+    box-shadow: rgb(0 0 0/0.4px) 2px 0px 0px;
+    color: rgb(240 240 240);
+    display: flex;
+    font-family: poppins;
+    font-size: 18px;
+    justify-content: flex-end;
+    line-height: 25.2px;
+}
+a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    line-height: 30.8px;
+    padding: 20px;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+#welcome-section{
+    align-items: center;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    justify-content: center;
+    height: 500px;
+}
+h1{
+    padding-top: 30px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 84px;
+    text-align: center;
+}
+h2{
+    color: rgb(65, 58, 58);
+    font-size: 50px;
+}
+h3{
+    padding-bottom: 50px;
+    color: rgb(50, 49, 49);
+    font-size: 30px;
+}
+h4{
+    align-items: flex-start;
+    font-size: 40px;
+    color: rgb(97, 95, 95);
+}
+p{
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 42px;
+}
+#projects{
+    flex-direction: row;
+    background-color: beige;
+    color: rgb(205, 210, 210);
+    font-size: 18px;
+    line-height: 25.2px;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#card{
+    width: 600px;
+    margin-bottom: 50px;
+    background-color: #9ec8d9;
+    flex-direction: row;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+}
+#card h4{
+    font-family: 'poppins';
+    font-size: 20px;
+    line-height: 28px;
+    padding: 20px 5px;
+    text-align: center;
+}
+.button{
+    font-size: 15px;
+    height: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgb(34, 142, 220);
+    margin: 20px;
+    padding: 5px 5px;
+    cursor: pointer;
+    
+}
+footer{
+    background-color: #548396;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    justify-content: space-evenly;
+    line-height: 26px;
+    padding: 20px;
+}
+footer p{
+    color: rgb(231, 236, 236);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    margin: 20px;
+}
+#img-project{
+    margin-top: 50px;
+    width: 500px;
+}
